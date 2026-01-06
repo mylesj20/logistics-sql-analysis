@@ -53,6 +53,28 @@ Which routes handle the highest volume of packages?
 
 What percentage of packages are delayed or completed?
 
+📊 Key Insights
+
+• A small number of stations account for a disproportionately high share of total package volume, indicating potential bottlenecks and staffing pressure points.
+
+• Average processing time varies significantly by station, suggesting opportunities for workflow optimization and performance benchmarking.
+
+• Certain delivery routes consistently handle higher package volumes, which may require adjusted staffing or scheduling strategies.
+
+• While most packages are delivered successfully, delayed and exception statuses represent operational risk areas that could impact service reliability.
+
+🛠 Recommendations
+
+• Reallocate staffing resources toward high-volume stations to reduce processing delays and improve throughput.
+
+• Investigate workflow differences between high- and low-performing stations to identify best practices.
+
+• Monitor high-volume routes more closely to anticipate capacity constraints.
+
+• Implement routine data quality checks and status monitoring to proactively identify operational issues.
+
+
+
 📎 Files Included
 
 logistics_operations.db — SQLite database used for analysis
@@ -61,6 +83,3 @@ analysis_queries.sql — SQL queries used to generate insights
 
 logistics_operations_sql_dataset.csv — Raw dataset
 
-🚀 Key Takeaways
-
-This project demonstrates practical SQL skills for analyzing operational data and translating query results into actionable insights relevant to entry-level Data Analyst and Operations Analyst roles.
